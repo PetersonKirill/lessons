@@ -1,6 +1,9 @@
 #3st program
-x = 13.42
-y = 42.13
-z = int(x//1) == int((y%1)*100)
+x = 1234
+y = 5678
+z = x//10  
+q = z%100
+w = y//10  
+e = w%100
 
-print(z)
+print(q+e)
